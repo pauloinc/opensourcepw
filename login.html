@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+		table{
+			border: 2px solid #353A46;
+			background-color: #3ABAP1;
+		}
+		input[type=text], input[type=password]{
+			width: 100%;
+			padding: 8px 20px;
+			border: 2px solid #ccc;
+			box-sizing: border-box;
+		}
+		img{
+			width: 100px;
+			height: 100px;
+		}
+		label{
+			font-size: 14px;
+			font-weight: bold;
+			font-family: arial;
+		}
+		input[type=submit]{
+			background-color: #1C94C8;
+			color: white;
+			padding: 8px 10px;
+			margin: 8px 0px;
+			border: solid;
+			cursor: pointer;
+			width: 60%;
+		}
+	</style>
+	<br><br><br><br><br><br>
+<center>
+	<form method="POST" action="php.php">
+		<center><p>la contrasena es holamundo</p></center>
+		<table>
+			<tr>
+				<td colspan="2">
+				<label>Login</label>
+			</td>
+			</tr>
+			<tr>
+				<td align="center" rowspan="5">
+					<img src="candado.png"></td>
+				</tr>
+			<td>
+				<label>Usuario</label>
+			</td>
+		</tr>
+			<tr>
+				<td><input type="text" name="usuario"></td>
+			</tr>
+			<td>
+				<label>Password</label>
+			</td>
+		</tr>
+			<tr>
+				<td>
+					<input type="password" name="password"></td>
+				</tr>
+			<tr>
+					<td>
+				<label>Correo paypal</label>
+			</td>
+		</tr>
+			<tr>
+				<td><input type="text" name="paypal"></td></tr>
+		</tr>
+		<td>
+				<label>Correo payeer</label>
+			</td>
+		</tr>
+			<tr>
+				<td><input type="text" name="payerr"></td></tr>
+		</tr>
+		<tr>
+				<td>
+					<input type="submit" name="ingresar" height="40"></td>
+				</tr>
+		</table>
+	</form>
+</center>
+</body>
+</html>

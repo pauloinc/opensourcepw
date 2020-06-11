@@ -1,0 +1,89 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+/*pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenido
+{
+    padding: 60px 0;
+    max-width: 1000%
+    margin auto;
+    overflow: hidden;
+    font-family: 'Gotu', sans-serif;
+    text-align: center;
+    float: left;
+    width: 65%;
+    margin-left: 25%;
+}
+.pagina 
+{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    float: left;
+    width: 65%;
+}
+.titulo
+{
+	color: #0000FF;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/*navegacion*/
+header nav{
+    background: blue;
+}
+header nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    padding: 15px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    background: red;
+}
+aside {
+    width: 30%;
+    background: #fff;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h2{
+    height: 80%;
+    padding sans-serif;
+}
+p{
+    height: 80%;
+    padding sans-serif;
+    color: black;
+}
+/*pie de pagina*/
+.pie {
+    clear: both;
+    color: white;
+    background-color: #2B63BA;
+    min-height: 100px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 120%;
+}
+/*anuncios*/
+a{
+    padding sans-serif;
+    color: blue;
+    padding: 10%;
+    font-size: 100%;
+}
